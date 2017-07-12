@@ -18,12 +18,16 @@ body {
 #name {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    color: #99CCFF;
+   /* color: #99CCFF;*/
     font-size: 90px;
     margin-top: 10px;
     text-transform: uppercase;
     word-spacing: 40px;
     letter-spacing: 12px;
+    color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
 }
 
 #job {
@@ -87,7 +91,8 @@ body {
 }
 
 .pageTwo {
-    background-image: url("../images/page2.jpeg");
+
+      background-image: url("../images/skateboardP.jpg");
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
@@ -95,9 +100,10 @@ body {
 }
 
 .pageThree {
-    background-image: url("../images/page5.jpeg");
+        background-image: url("../images/page2.jpeg");
+
     background-size: cover;
-    /* height: 100%;*/
+     /*height: 100%;*/
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: -12px;
@@ -107,18 +113,29 @@ body {
 .pageFour {
     background-image: url("../images/page3.jpeg");
     background-size: cover;
-    /*  height: 100%;*/
+      height: 150%;
     background-repeat: no-repeat;
-    background-position: center;
+    /*background-position: center;*/
 }
 
 .pageFive {
     background-image: url("../images/page4.jpeg");
     background-size: cover;
+   /* height: 100%;*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.pageSix {
+        background-image: url("../images/page5.jpeg");
+    background-size: cover;
     /*height: 100%;*/
     background-repeat: no-repeat;
     background-position: center;
+    padding: 5%;
 }
+
 
 #head,
 #me,
@@ -177,12 +194,13 @@ a {
 
 p {
     font-size: 36px;
-    color: ;
+    color: #272525;
 }
 
 h3 {
     text-align: center;
     color: white;
+    font-family: 'Alegreya', serif;
 }
 
 td {
@@ -202,11 +220,25 @@ td {
     margin-right: 470px;
     margin-bottom: 20px;
     text-decoration: underline;
+    font-family: 'Alegreya', serif;
+    color: white;
+
+}
+
+.skill-set {
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  color: white;
+}
+
+#ovo {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
 }
 
 .motto {
     text-indent: 40px;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Alegreya', serif;
     margin-right: auto;
     margin-left: 30px;
     padding-left: 30px;
@@ -219,22 +251,22 @@ td {
     text-indent: 40px;
     font-size: 27px;
     text-align: left;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Alegreya', serif;
     margin-right: 400px;
     padding-left: 30px;
     padding-right: 30px;
+    color: white;
+    margin-bottom: 80px;
 }
 
 #motto {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Alegreya', serif;
     text-align: center;
     word-spacing: 30px;
 }
 
-.jordan {
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
+.downward {
+  margin-top: 30%;
 }
 
 .work {
@@ -284,13 +316,14 @@ td {
 footer {
     padding: 30px 0;
     clear: both;
+    width: 100%;
     color: black;
     font-size: 20px;
     text-align: center;
     background: #CCE5FF;
-    border-top: 8px solid #CCE5FF;
+   /* border-top: 8px solid #CCE5FF;*/
     opacity: 0.7;
-    margin-top: 410px;
+    margin-top: 200px;
     font-family: 'Dancing Script', cursive;
 }
 
