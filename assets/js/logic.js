@@ -18,12 +18,15 @@
         }); 
     });
 
-    
+    $(".pictures").mouseover(function(){
+    $(".pictures").css("webkit-animation: ping 0.8s ease-in-out infinite both",
+            "animation: ping 0.8s ease-in-out infinite both");
+});
 
     $(window).scroll(function(){
 
          $('.about-me').typeIt({
-            strings: ["I'm AWESOME!!!","Don't ask any questions", "just take my word for it!" ],
+            strings: ["I'm like a fly Malcolm X,","buy any jeans necessary." ],
             speed: 150,
             breakLines: false,
             autoStart: false,
@@ -32,3 +35,6 @@
     });
 
 });
+
+
+
